@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lightexplorer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission
+11-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:3:5-107
+12        android:name="android.permission.READ_EXTERNAL_STORAGE"
+12-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:3:22-77
+13        android:maxSdkVersion="32" />
+13-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:3:78-104
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:4:5-76
+14-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:4:22-73
+15    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+15-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:5:5-75
+15-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:5:22-72
+16    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+16-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:6:5-75
+16-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:6:22-72
+17    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+17-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:7:5-82
+17-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:7:22-79
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.lightexplorer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.lightexplorer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:9:5-33:19
+26        android:allowBackup="true"
+26-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:10:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] C:\Users\Ema\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@drawable/app_icon"
+30-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:12:9-42
+31        android:label="@string/app_name"
+31-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:11:9-41
+32        android:roundIcon="@drawable/app_icon"
+32-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:13:9-47
+33        android:supportsRtl="true"
+33-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:14:9-35
+34        android:theme="@style/Theme.LightExplorer" >
+34-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:15:9-51
+35        <provider
+36            android:name="androidx.core.content.FileProvider"
+36-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:17:13-62
+37            android:authorities="com.example.lightexplorer.fileprovider"
+37-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:18:13-64
+38            android:exported="false"
+38-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:19:13-37
+39            android:grantUriPermissions="true" >
+39-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:20:13-47
+40            <meta-data
+40-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:21:13-23:54
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:22:17-67
+42                android:resource="@xml/file_paths" />
+42-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:23:17-51
+43        </provider>
+44
+45        <activity
+45-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:25:9-32:20
+46            android:name="com.example.lightexplorer.MainActivity"
+46-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:26:13-41
+47            android:exported="true" >
+47-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:27:13-36
+48            <intent-filter>
+48-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:28:13-31:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:29:17-69
+49-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:29:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:30:17-77
+51-->C:\Users\Ema\.copilot\chats\2026-11-21\laughing-bassoon-50c55f90\app\src\main\AndroidManifest.xml:30:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\Ema\.gradle\caches\8.9\transforms\75da1d9fd0a9568c8027ba85e7b60180\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+55            android:name="androidx.compose.ui.tooling.PreviewActivity"
+55-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\Ema\.gradle\caches\8.9\transforms\75da1d9fd0a9568c8027ba85e7b60180\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+56            android:exported="true" />
+56-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\Ema\.gradle\caches\8.9\transforms\75da1d9fd0a9568c8027ba85e7b60180\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.example.lightexplorer.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ema\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Ema\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Ema\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Ema\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ema\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92    </application>
+93
+94</manifest>
